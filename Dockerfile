@@ -6,7 +6,8 @@ USER user
 ENV HOME=/home/user \
     PATH=/home/user/.local/bin:$PATH
 
-ENV APP_PORT=7057
+ARG APP_PORT=7057
+ENV APP_PORT=$APP_PORT
 
 WORKDIR $HOME/app
 
