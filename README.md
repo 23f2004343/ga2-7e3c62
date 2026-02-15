@@ -1,5 +1,5 @@
 ---
-title: Deployment Ready Ga2 7e3c62
+title: ga2-7e3c62
 emoji: 🚀
 colorFrom: blue
 colorTo: red
