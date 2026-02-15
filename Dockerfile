@@ -4,8 +4,9 @@ FROM python:3.11-slim
 RUN useradd -m -u 1000 user
 USER user
 ENV HOME=/home/user \
-	PATH=/home/user/.local/bin:$PATH \
-    APP_PORT=7057
+    PATH=/home/user/.local/bin:$PATH
+
+ENV APP_PORT=7057
 
 WORKDIR $HOME/app
 
